@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explorer AI Technologies</title>
+<style>
+    body{
+        background-color:rgb(125,120,110);
+    }
+    #maindiv{ 
+       display:flex;
+       flex-wrap:wrap;
+       margin:30px;
+       justify-content: center;
+       gap:70px;
+       }
+    h1{
+            padding:50px;
+            font-size: 50px;
+            font-style:italic;
+            font-family:cursive;
+            color:rgb(35, 21, 21);
+            text-decoration: underline;     
+        }
+    
+    .division{
+       height:270px;
+       width:350px;
+       background-color:rgb(70,35,35);
+       color:white;
+       border-radius:10px;
+       text-align: center;
+       align-items:center;
+       font-size:60px;
+       padding:60px;
+       box-sizing: border-box;
+       transition:transform 0.3s ease, box-shadow 0.3s ease; 
+       font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .division:hover{
+        transform:transletY(-5px);
+        box-shadow:0 0 10px rgba(255,255,255,0.2);
+    }
+   a{
+        text-decoration: none;
+        color:white;
+        
+    }
+    .div2{
+            text-decoration:none;
+            color:rgb(170, 160, 160);
+            font-size:25px;
+            font-style:bold;
+            padding:19px;
+        }
+        footer{
+            background-color:  rgb(70, 45, 45);
+            height:150px;
+            box-sizing: border-box;
+            text-align:center;
+            padding:50px;
+           }
+</style>
+</head>
+<body>
+    <h1 align="center">This is explorer page</h1>
+    <div id="maindiv">
+        <div class="division" id="div1"><a href="ml.html">Machine Learning</a></div>
+        <div class="division" id="div2"><a href="dl.html">Deep Learning</a></div>
+        <div class="division" id="div3"><a href="nlp.html">Natural Language Processing</a></div>
+        <div class="division" id="div4"><a href="cv.html">Computer Vision</a></div>
+        <div class="division" id="div5"><a href="gi.html">Generative AI</a></div>
+
+    </div>
+    <div class="div2">
+    <footer class="a">
+        <a href="./home.html">Home</a>
+        <a href="./login.html">Logout</a>
+        <a href="#about">About Us</a>
+        <a href="#contact">Contact Us</a>
+        <a href="./feedback.html">Feedback</a>
+    </footer>
+</div>
+</body>
+</html>

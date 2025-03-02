@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback From</title>
+<style>
+    body {
+    background-color:rgb(125,120,110);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    }
+    #feedback-form{
+    background-color:rgb(70,35,35);
+    padding: 20px;
+    border:2px solid rgb(70,35,35);
+    border-radius: 8px;
+    width: 400px;
+    height:400px;
+    text-align: center;
+    color: white;
+    font-size:25px;
+    }
+</style>
+</head>
+<body>
+   <form id="feedback-form">
+    <h2>Feedback Form</h2>
+    <div class="division" id="maindiv">
+        <label for="name" class="division" id="form-label1">Name: </label>
+        <input type="name" class="division" id="form-input1" placeholder="Enter your name" required><br><br>
+        <label for="message" class="division" id="form-label2">Feedback: </label>
+        <textarea for="message" class="division" id="form-input2" placeholder="Enter your feedback" required></textarea><br><br>
+        <button type="submit" class="division" id="submitbtn">Submit Feedback</button>
+    
+    </div>
+   </form>
+</body>
+</html>
